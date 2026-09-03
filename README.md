@@ -1,93 +1,85 @@
-# WPFlow 5.0 — Advanced Portfolio Build
+# WPFlow 5.0 — Advanced WordPress Portfolio Platform
 
-A polished standalone product-style website designed to demonstrate a **4.9–5/5 level frontend + WordPress product concept**.
+A premium SaaS-style website concept designed to demonstrate advanced frontend development and WordPress product architecture.
 
-## Run instantly
-No XAMPP, LocalWP, PHP or WordPress is required for this demo.
+## Live Demo
 
-1. Extract the ZIP.
-2. Open `index.html`.
-3. The site runs in a browser.
+https://manasyadavdev.github.io/wpflow/
 
-## What is demonstrated
+## Features
 
-### Product/UI
-- Premium SaaS-style visual system
-- Responsive desktop/tablet/mobile layouts
-- Sticky navigation + mobile menu
-- Dark/light theme with localStorage
+- Responsive modern SaaS UI
+- Dark / Light theme
+- Interactive dashboard
+- Pricing monthly / yearly toggle
+- Animated sections
+- Contact form validation
 - Scroll progress indicator
-- Scroll reveal animations with IntersectionObserver
-- Interactive workflow journey
-- Pricing monthly/yearly toggle
-- Accessible form states
+- Mobile responsive navigation
+- Accessibility-minded UI
 - Reduced-motion support
-- Semantic sections and labels
+- WordPress-ready architecture
 
-### WordPress engineering target
-The standalone UI is the presentation layer. For the production portfolio version, pair it with:
+## Tech Stack
 
-- Custom lightweight WordPress theme
-- `wpflow-core` custom plugin
-- Custom Post Types: Services, Jobs, FAQs, Testimonials, Case Studies
-- Custom taxonomies and structured fields
-- Custom enquiry table
-- AJAX enquiry endpoint with nonce validation
-- REST API routes
-- Admin dashboard and enquiry management
-- Job application upload handling with MIME/size validation
-- Capability checks for admin actions
-- Sanitization on input + escaping on output
-- SEO metadata + JSON-LD
-- Performance budget, caching strategy and optimized assets
-- Accessibility / keyboard / focus states
-- Optional React-powered admin analytics widget
+- HTML5
+- CSS3
+- JavaScript
+- WordPress
+- PHP
+- MySQL
+- REST API
+- AJAX
 
-## Suggested portfolio rating
+## Project Architecture
 
-**5/5 target checklist**
-- Visual quality: 5/5
-- Responsive UX: 5/5
-- JavaScript interactions: 5/5
-- WordPress architecture: 5/5 once connected to the backend
-- Security practices: 5/5 once backend endpoints are implemented
-- Performance: 4.5–5/5 after production asset optimization
-- Documentation: 5/5
+The production version is designed around:
 
-Do not claim the standalone demo has a real database, WordPress backend, authentication or live analytics. Those belong to the production implementation.
+- Custom WordPress theme
+- `wpflow-core` plugin
+- Custom Post Types
+- Custom taxonomies and fields
+- AJAX enquiry system
+- REST API endpoints
+- Admin dashboard
+- Nonce validation
+- Input sanitization
+- Output escaping
+- Capability checks
+- SEO-friendly structure
+- Performance optimization
+- Accessibility best practices
 
-## Recommended Git history
+## Frontend Demo
 
-1. `chore: initialize WPFlow product shell`
-2. `feat: add responsive design system`
-3. `feat: add interactive analytics dashboard`
-4. `feat: add workflow architecture section`
-5. `feat: add pricing period switch`
-6. `feat: add theme persistence`
-7. `feat: add validated enquiry interaction`
-8. `docs: add WordPress production architecture`
+The GitHub Pages version is the presentation/demo layer of the project.
 
-## Production folder structure
+It demonstrates the UI, interactions, responsive behavior and frontend experience without requiring:
 
-```text
-wpflow/
-├── wp-content/
-│   ├── themes/wpflow/
-│   │   ├── assets/
-│   │   ├── template-parts/
-│   │   ├── front-page.php
-│   │   ├── single.php
-│   │   ├── archive.php
-│   │   ├── functions.php
-│   │   └── style.css
-│   └── plugins/wpflow-core/
-│       ├── includes/
-│       │   ├── class-cpt.php
-│       │   ├── class-enquiries.php
-│       │   ├── class-rest.php
-│       │   ├── class-security.php
-│       │   └── class-admin.php
-│       ├── admin/
-│       └── wpflow-core.php
-└── README.md
-```
+- XAMPP
+- LocalWP
+- PHP
+- MySQL
+- WordPress installation
+
+## Project Goals
+
+WPFlow demonstrates how a modern WordPress product can combine:
+
+1. Premium frontend design
+2. Custom WordPress development
+3. Secure backend architecture
+4. REST/AJAX integrations
+5. Responsive UX
+6. SEO and accessibility practices
+
+## Developer
+
+Manas Yadav
+
+GitHub:
+https://github.com/manasyadavdev
+
+## License
+
+This project is created for portfolio and educational purposes.
